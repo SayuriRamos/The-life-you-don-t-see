@@ -1,0 +1,140 @@
+.gradient-container {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+  
+  }
+
+  @media screen and (max-width: 768px) {
+    .gradient-container {
+      margin-top: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .gradient-container {
+      margin-top: 200px;
+    }
+  }
+
+
+.home-container {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+  .gradient-true{
+    background: #8FCAFF;
+     width: 100%;
+  }
+
+  .libreItalic{
+    color: white  !important;
+    font-family: 'LibreItalic', sans-serif; /* Replace with your desired font family */
+  
+  }
+
+  .montItalic{
+    color: white  !important;
+    font-family: 'MontItalic', sans-serif; /* Replace with your desired font family */
+    display: flex;
+
+  
+  }
+
+  
+  .image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  }
+
+  .center-img{
+    justify-content: center;
+    align-items: center;  
+    display: flex;
+
+
+  }
+  
+
+  .libreRegular{
+    color: white  !important;
+    font-family: 'LibreRegular', sans-serif; /* Replace with your desired font family */
+  
+  
+  }
+
+  .Msemibold{
+    color: white  !important;
+    font-family: 'Msemibold', sans-serif; /* Replace with your desired font family */
+  
+  
+  }
+
+
+  
+  @font-face {
+    font-family: 'Msemibold'; /* Specify a unique name for your font */
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype'); /* Adjust the path to the font file */
+    /* Add more @font-face declarations for different font styles if necessary */
+  }
+
+
+  @font-face {
+    font-family: 'LibreItalic'; /* Specify a unique name for your font */
+    src: url('../fonts/LibreBaskerville-Italic.ttf') format('truetype'); /* Adjust the path to the font file */
+    /* Add more @font-face declarations for different font styles if necessary */
+  }
+  
+  @font-face {
+    font-family: 'LibreRegular'; /* Specify a unique name for your font */
+    src: url('../fonts/LibreBaskerville-Regular.ttf') format('truetype'); /* Adjust the path to the font file */
+    /* Add more @font-face declarations for different font styles if necessary */
+  }
+
+  @font-face {
+    font-family: 'MontItalic'; /* Specify a unique name for your font */
+    src: url('../fonts/Montserrat-Italic.ttf') format('truetype'); /* Adjust the path to the font file */
+    /* Add more @font-face declarations for different font styles if necessary */
+  }
+
+
+  .texthello {
+    font-size: 35px; /* Default font size */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .texthello {
+      font-size: 14px; /* Font size for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .texthello {
+      font-size: 12px; /* Font size for even smaller screens */
+    }
+  }
+
+
+
+  .padding-text > div {
+    padding-left: 200px;
+    padding-right: 50px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .padding-text > div {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .padding-text > div {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+  

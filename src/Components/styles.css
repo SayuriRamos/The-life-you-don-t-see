@@ -1,0 +1,78 @@
+
+ .nav-link.active {
+  background-color: #ffffff !important; 
+  font-family: 'ExtraBold', sans-serif !important; /* Replace with your desired font family */
+  color: #8FCAFF !important; 
+}
+
+.nav-link {
+  color: white  !important;
+  font-family: 'Semibold', sans-serif !important; /* Replace with your desired font family */
+}
+
+
+.custom-class {
+  background-color: #8FCAFF  !important;
+  padding-left: 60px;
+  padding-right: 60px; /* Replace with your desired background color */
+}
+
+@media screen and (max-width: 768px) {
+  .custom-class {
+    padding-left: 0px;
+    padding-right: 0px; /* Replace with your desired background color */
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .custom-class {
+    padding-left: 0px;
+    padding-right: 0px; /* Replace with your desired background color */
+    }
+}
+
+
+.navbar {
+  background-color: #8FCAFF  !important; /* Replace with your desired background color */
+}
+
+
+@font-face {
+  font-family: 'ExtraBold'; /* Specify a unique name for your font */
+  src: url('../fonts/Montserrat-ExtraBold.ttf') format('truetype'); /* Adjust the path to the font file */
+  /* Add more @font-face declarations for different font styles if necessary */
+}
+
+@font-face {
+  font-family: 'SemiBold'; /* Specify a unique name for your font */
+  src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype'); /* Adjust the path to the font file */
+  /* Add more @font-face declarations for different font styles if necessary */
+}
+
+.navbar-line {
+  position: absolute;
+  width: calc(100% - 32px); /* Adjust the width as needed */
+  height: 0px;
+  left: 16px; 
+  right: 16px;
+  border: 2px solid #ffffff;  
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: auto; /* Reset width to auto */
+  height: 50px; /* Set the desired height of the logo */
+  object-fit: contain; /* Maintain aspect ratio and fit the entire image within the container */
+  margin-right: 10px; /* Add margin to create space between the logo and other navbar content */
+}
+
+
+
+
+
+
+

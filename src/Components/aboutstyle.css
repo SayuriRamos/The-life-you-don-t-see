@@ -1,0 +1,75 @@
+
+.rounded-button {
+  border-radius: 10%;
+  border: 2px solid white !important;
+  background-color: rgb(255, 255, 255) !important;
+  transition: all 0.3s ease-in-out !important;
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.rounded-button:focus,
+.rounded-button:hover {
+  outline: none !important;
+  border-color: white !important;
+  background-color: white !important;
+  transform: scale(1.1) !important;
+}
+
+.rounded-button img {
+    width: 100% !important;
+    height: 100% !important;
+  
+}
+
+.rounded-button.active,
+.rounded-button:focus:active,
+.rounded-button:hover:active {
+  background-color: white !important;
+  border-color: white !important;
+}
+
+
+.container-done {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 380px;
+    background-color: #8FCAFF;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container-done {
+        padding-left: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container-done {
+        padding-left: 0px;
+    }
+  }
+
+  .divBotones{
+    padding-top: 300px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .divBotones {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .divBotones {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+  }
+
+
+
+  
+  
