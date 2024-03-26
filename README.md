@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+#Página web para estudio de animación
+
+Esta página esta dedicada para utilizarse en la Expoingeniería para el estudio de animación presentando el corto The Life You Don't See
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
